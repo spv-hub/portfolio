@@ -5360,3 +5360,31 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 1433)
 
 
+Started GET "/welcome" for 127.0.0.1 at 2021-06-30 19:57:58 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 126)
+  Rendered layouts/_footer.html.erb (Duration: 0.2ms | Allocations: 110)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4857)
+Completed 200 OK in 11ms (Views: 10.0ms | Allocations: 6005)
+
+
+Started GET "/" for ::1 at 2021-06-30 19:58:05 -0700
+  
+ActionController::RoutingError (uninitialized constant StaticPagesController):
+  
+Started GET "/welcome" for ::1 at 2021-06-30 19:58:10 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 4299)
+Completed 200 OK in 7ms (Views: 6.7ms | Allocations: 4780)
+
+
