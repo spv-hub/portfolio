@@ -58,14 +58,13 @@ header {
 
 footer {
 	display: flex;
+	align-items: center; 
 	justify-content: center;
-	left: 0;
-	bottom: 0;
-}
+ }
 
 .footer-item {
 	display: inline-block;
-	margin:0 85px 0 0;   
+	margin:0 6em 0 6em;   
 }
 
 .gmail-icon,
