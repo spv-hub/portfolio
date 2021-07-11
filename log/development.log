@@ -9427,3 +9427,39 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 15ms (Views: 14.7ms | Allocations: 5887)
 
 
+Started GET "/" for ::1 at 2021-07-10 23:34:05 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 2.1ms | Allocations: 126)
+  Rendered layouts/_footer.html.erb (Duration: 5.8ms | Allocations: 1559)
+  Rendered layout layouts/application.html.erb (Duration: 40.7ms | Allocations: 6317)
+Completed 200 OK in 46ms (Views: 44.6ms | Allocations: 7379)
+
+
+Started GET "/" for ::1 at 2021-07-10 23:34:07 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 3.4ms | Allocations: 1400)
+  Rendered layout layouts/application.html.erb (Duration: 36.6ms | Allocations: 5519)
+Completed 200 OK in 38ms (Views: 37.6ms | Allocations: 5925)
+
+
+Started GET "/" for ::1 at 2021-07-10 23:34:18 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.3ms | Allocations: 126)
+  Rendered layouts/_footer.html.erb (Duration: 2.0ms | Allocations: 1555)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 6306)
+Completed 200 OK in 14ms (Views: 13.6ms | Allocations: 7363)
+
+
