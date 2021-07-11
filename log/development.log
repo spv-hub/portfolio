@@ -9363,3 +9363,27 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 5885)
 
 
+Started GET "/" for ::1 at 2021-07-10 23:09:35 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 1.8ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 5480)
+Completed 200 OK in 9ms (Views: 8.8ms | Allocations: 5885)
+
+
+Started GET "/" for ::1 at 2021-07-10 23:11:18 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 1.6ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5480)
+Completed 200 OK in 11ms (Views: 10.7ms | Allocations: 5885)
+
+
