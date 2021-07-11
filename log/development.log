@@ -9339,3 +9339,27 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 5885)
 
 
+Started GET "/" for ::1 at 2021-07-10 23:06:06 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 5.2ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5480)
+Completed 200 OK in 16ms (Views: 15.5ms | Allocations: 5885)
+
+
+Started GET "/" for ::1 at 2021-07-10 23:06:09 -0700
+Processing by PagesController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering pages/home.html.erb within layouts/application
+  Rendered pages/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.erb (Duration: 0.4ms | Allocations: 38)
+  Rendered layouts/_footer.html.erb (Duration: 2.8ms | Allocations: 1364)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 5480)
+Completed 200 OK in 16ms (Views: 15.1ms | Allocations: 5885)
+
+
