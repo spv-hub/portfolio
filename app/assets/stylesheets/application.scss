@@ -13,9 +13,7 @@
  *= require_tree .
  *= require_self
  */
-
  @import "bulma";
-
 /* border theme */
 #top, #bottom, #left, #right {
 	background: #6e0e81;
@@ -35,8 +33,7 @@
 		#top { top: 0; }
 		#bottom { bottom: 0; }
         
- body {
-    // width: 700px;
+body {
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -54,14 +51,27 @@ header, footer {
 header {
     background-color: #27ae60;
 }
-          
-footer {
-    background-color: #c0392b;
-}
-
-
+    
 .navbar-item {
     margin-top: -60px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-evenly;
+	left: 0;
+	bottom: 0;
+}
+
+.footer-item {
+	display: inline-block;
+	margin:0 85px 0 0;   
+}
+
+.gmail-icon,
+.linkedin-icon,
+.github-icon {
+	width: 30px;
 }
 
 /* Remove border on smaller screens */
